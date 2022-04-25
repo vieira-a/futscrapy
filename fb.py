@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import datetime
 
+# File saved from https://www.futbin.com/22/sales/267/ronaldo?platform=xbox
 # Open offline file
 url = open('files/267/267.html', 'r')
 html = url.read()
